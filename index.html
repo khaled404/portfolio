@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Hi, I’m Khaled , I'm a front end developer that pride myself on being strategic brand partners and awesome product providers.">
-    <title>Portfolio-k</title>
+    <meta name="description" content="Hi, I’m Khaled , I'm a Web Developer that pride myself on being strategic brand partners and awesome product providers.">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800&amp;display=swap">
     <link rel="shortcut icon" type="img/png" href="img/logo.png">
     <link rel="stylesheet" href="font/style.css">
+    <link rel="stylesheet" href="css/bootstrap4.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/animated.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body class="over">
     <!--Start Loading-->
-    <div class="loading">
-      <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
+    <div class="loader-box">
+      <div class="loader">
+        <div class="face face1">
+          <div class="circle"></div>
+        </div>
+        <div class="face face2">
+          <div class="circle"></div>
+        </div>
       </div>
     </div>
     <!--start header-->
@@ -50,8 +58,8 @@
           </section>
           <div class="skil-box">
             <ul class="list-unstiled">
-              <li>Front End Developer</li>
-              <li>Web Designer</li>
+              <li>UI Developer</li>
+              <li>Web Developer</li>
               <li>Freelancer</li>
             </ul>
           </div><a class="min-btn" href="#contact">Contact Me</a>
@@ -63,14 +71,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12">
+            <div class="min-titel d-lg-none d-md-block">
+              <h2> About Me<span class="holder"></span><span class="num">01.</span></h2>
+            </div>
             <div class="img-box"><img src="img/k.jpg" alt="my photo khaled mahmoud"></div>
           </div>
           <div class="col-lg-6 col-12">
-            <div class="min-titel">
+            <div class="min-titel d-md-none d-lg-block">
               <h2> About Me<span class="holder"></span><span class="num">01.</span></h2>
             </div>
             <div class="contint">
-              <h3><span>Hi There</span>, I'm a front end developer that pride myself on being strategic brand partners and awesome product providers.</h3>
+              <h3><span>Hi There</span>, I'm a Web Developer that pride myself on being strategic brand partners and awesome product providers.</h3>
               <div class="caption">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -110,16 +121,19 @@
                   <div class="progress-contain">
                     <h3 class="text-center"><i class="icon-user"></i>Personal Skills</h3>
                     <div class="progress-container">
-                      <h4>Web Design</h4>
-                      <div class="my-progress"><span class="full" data-progress="80" data-delay="0"><span class="timer top" data-from="0" data-to="80" data-speed="1000">0</span></span></div>
+                      <h4>UI development</h4>
+                      <div class="my-progress"><span class="full" data-progress="80" data-delay="0">
+                          <!-- span(class="timer" data-from="0" data-to="85" data-speed="1000").top 0--></span></div>
                     </div>
                     <div class="progress-container">
-                      <h4>Javascript & Frameworks</h4>
-                      <div class="my-progress"><span class="full" data-progress="62" data-delay="100"><span class="timer top" data-from="0" data-to="62" data-speed="1000">0</span></span></div>
+                      <h4>Javascript && JS Frameworks</h4>
+                      <div class="my-progress"><span class="full" data-progress="62" data-delay="100">
+                          <!-- span(class="timer" data-from="0" data-to="72" data-speed="1000").top 0--></span></div>
                     </div>
                     <div class="progress-container">
-                      <h4>Vue js</h4>
-                      <div class="my-progress"><span class="full" data-progress="25" data-delay="200"><span class="timer top" data-from="0" data-to="25" data-speed="1000">0</span></span></div>
+                      <h4>firebase && php && mysql && wordpress</h4>
+                      <div class="my-progress"><span class="full" data-progress="35" data-delay="200">
+                          <!-- span(class="timer" data-from="0" data-to="35" data-speed="1000").top 0--></span></div>
                     </div>
                   </div>
                 </div>
@@ -127,16 +141,19 @@
                   <div class="progress-contain">
                     <h3 class="text-center"><i class="icon-users"></i>Professional Skills</h3>
                     <div class="progress-container">
-                      <h4>Preprocessors & Task Runner & Git</h4>
-                      <div class="my-progress"><span class="full" data-progress="85" data-delay="300"><span class="timer top" data-from="0" data-to="85" data-speed="1000">0</span></span></div>
+                      <h4>Preprocessors && Task Runner (gulp)  && Git</h4>
+                      <div class="my-progress"><span class="full" data-progress="90" data-delay="300">
+                          <!-- span(class="timer" data-from="0" data-to="90" data-speed="1000").top 0--></span></div>
                     </div>
                     <div class="progress-container">
-                      <h4>Bootstrap & Frameworks</h4>
-                      <div class="my-progress"><span class="full" data-progress="80" data-delay="400"><span class="timer top" data-from="0" data-to="80" data-speed="1000">0</span></span></div>
+                      <h4>Bootstrap && UI Frameworks</h4>
+                      <div class="my-progress"><span class="full" data-progress="85" data-delay="400">
+                          <!-- span(class="timer" data-from="0" data-to="85" data-speed="1000").top 0--></span></div>
                     </div>
                     <div class="progress-container">
                       <h4>Photoshop</h4>
-                      <div class="my-progress"><span class="full" data-progress="57" data-delay="500"><span class="timer top" data-from="0" data-to="57" data-speed="1000">0</span></span></div>
+                      <div class="my-progress"><span class="full" data-progress="57" data-delay="500">
+                          <!-- span(class="timer" data-from="0" data-to="57" data-speed="1000").top 0--></span></div>
                     </div>
                   </div>
                 </div>
@@ -202,30 +219,30 @@
           <ul class="list-unstiled">
             <li>
               <div class="resume-box wow fadeInLeft" data-wow-duration=".8s" data-wow-offset="100"><span>2017 - 2018</span>
+                <h4>Freelancer</h4>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+              </div>
+            </li>
+            <li>
+              <div class="resume-box wow fadeInRight" data-wow-duration=".8s" data-wow-offset="100"><span>2018 - 2019</span>
+                <h4>UI developer at tasawk company </h4>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
+              </div>
+            </li>
+            <li>
+              <div class="resume-box wow fadeInLeft" data-wow-duration=".8s" data-wow-offset="100"><span>2018 - 2019</span>
                 <h4>Company Name</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
               </div>
             </li>
             <li>
-              <div class="resume-box wow fadeInRight" data-wow-duration=".8s" data-wow-offset="100"><span>2017 - 2018</span>
+              <div class="resume-box wow fadeInRight" data-wow-duration=".8s" data-wow-offset="100"><span>2018 - 2019</span>
                 <h4>Company Name</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
               </div>
             </li>
             <li>
-              <div class="resume-box wow fadeInLeft" data-wow-duration=".8s" data-wow-offset="100"><span>2017 - 2018</span>
-                <h4>Company Name</h4>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
-              </div>
-            </li>
-            <li>
-              <div class="resume-box wow fadeInRight" data-wow-duration=".8s" data-wow-offset="100"><span>2017 - 2018</span>
-                <h4>Company Name</h4>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
-              </div>
-            </li>
-            <li>
-              <div class="resume-box wow fadeInLeft" data-wow-duration=".8s" data-wow-offset="100"><span>2017 - 2018</span>
+              <div class="resume-box wow fadeInLeft" data-wow-duration=".8s" data-wow-offset="100"><span>2018 - 2019</span>
                 <h4>Company Name</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
               </div>
@@ -243,72 +260,99 @@
         <div class="portfolio-container">
           <ul class="list-unstyled">
             <li class="mixitup-control-active active" data-filter="all">All</li>
-            <li data-filter=".fre">Freelance</li>
-            <li data-filter=".app">App</li>
-            <li data-filter=".web">Website</li>
+            <li data-filter=".work">work</li>
+            <li data-filter=".Apps">Apps</li>
           </ul>
           <div class="mixitup-container">
             <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-6 col-12 mix app">
+              <div class="col-lg-4 col-md-6 col-12 mix work">
                 <div class="mix-body"><img src="img/portfolio/min/001.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Trillo  " href="img/portfolio/001.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Trillo</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Nataeg" href="img/portfolio/001.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/Nataeg" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Nataeg</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix web">
+              <div class="col-lg-4 col-md-6 col-12 mix work">
                 <div class="mix-body"><img src="img/portfolio/min/002.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Natours" href="img/portfolio/002.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Natours</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Mada Alsultan" href="img/portfolio/002.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/Mada-Alsultan" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Mada Alsultan</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix web">
+              <div class="col-lg-4 col-md-6 col-12 mix work">
                 <div class="mix-body"><img src="img/portfolio/min/003.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Dr.Amr Elsadany" href="img/portfolio/003.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Dr.Amr Elsadany</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Reem Desing" href="img/portfolio/003.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/reem-desing" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Reem Desing</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix web">
+              <div class="col-lg-4 col-md-6 col-12 mix work">
                 <div class="mix-body"><img src="img/portfolio/min/004.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Weather App" href="img/portfolio/004.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Weather App</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Blackstone" href="img/portfolio/004.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/blackstone" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Blackstone</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix fre">
+              <div class="col-lg-4 col-md-6 col-12 mix work">
                 <div class="mix-body"><img src="img/portfolio/min/005.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Elsayes Electrnoy" href="img/portfolio/005.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Elsayes Electrnoy</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Wady" href="img/portfolio/005.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/wady" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Wady</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix fre">
+              <div class="col-lg-4 col-md-6 col-12 mix">
                 <div class="mix-body"><img src="img/portfolio/min/006.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Highness" href="img/portfolio/006.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Highness</h4>
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Mitalent" href="img/portfolio/006.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/MITALENT" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Mitalent</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix fre">
-                <div class="mix-body"><img src="img/portfolio/min/007.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Lisense Way.com" href="img/portfolio/007.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
+              <div class="col-lg-4 col-md-6 col-12 mix">
+                <div class="mix-body">
+                  <div class="owl-carousel">
+                    <div class="slide"><img src="img/portfolio/min/007.jpg" alt=" My work img">
+                      <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Tasawk App" href="img/portfolio/007.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/tasawk/dist/index.html" target="_balnk"><i class="icon-link"></i></a>
+                        <h4>Tasawk App</h4>
+                      </div>
+                    </div>
+                    <div class="slide"><img src="img/portfolio/min/008.jpg" alt=" My work img">
+                      <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Tasawk App" href="img/portfolio/008.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/tasawk/dist/index2.html" target="_balnk"><i class="icon-link"></i></a>
+                        <h4>Tasawk App</h4>
+                      </div>
+                    </div>
+                    <div class="slide"><img src="img/portfolio/min/009.jpg" alt=" My work img">
+                      <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Tasawk App" href="img/portfolio/009.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/tasawk/dist/index3.html" target="_balnk"><i class="icon-link"></i></a>
+                        <h4>Tasawk App</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mix Apps">
+                <div class="mix-body"><img src="img/portfolio/min/010.jpg" alt=" My work img">
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Note todo Javascript App" href="img/portfolio/010.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/toDoApp" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Note Js && Firebase App</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mix">
+                <div class="mix-body"><img src="img/portfolio/min/011.jpg" alt=" My work img">
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Lisense Way.com" href="img/portfolio/011.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/License-Way.Com" target="_balnk"><i class="icon-link"></i></a>
                     <h4>Lisense Way.com</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix fre">
-                <div class="mix-body"><img src="img/portfolio/min/008.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Maxam" href="img/portfolio/008.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
+              <div class="col-lg-4 col-md-6 col-12 mix">
+                <div class="mix-body"><img src="img/portfolio/min/012.jpg" alt=" My work img">
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Maxam" href="img/portfolio/012.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/MAXAM" target="_balnk"><i class="icon-link"></i></a>
                     <h4>Maxam</h4>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-12 mix app">
-                <div class="mix-body"><img src="img/portfolio/min/009.jpg" alt=" My work img">
-                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Pig Game" href="img/portfolio/009.jpg"><i class="icon-new-tab"></i></a><a href="#"><i class="icon-link"></i></a>
-                    <h4>Pig Game</h4>
+              <div class="col-lg-4 col-md-6 col-12 mix">
+                <div class="mix-body"><img src="img/portfolio/min/013.jpg" alt=" My work img">
+                  <div class="overlay"><a data-fancybox="gallery" data-morphing data-type="image" data-caption="Elsayes Electrnoy" href="img/portfolio/013.jpg"><i class="icon-new-tab"></i></a><a href="https://khaled404.github.io/Elelctrnoy" target="_balnk"><i class="icon-link"></i></a>
+                    <h4>Elsayes Electrnoy</h4>
                   </div>
                 </div>
               </div>
@@ -550,5 +594,6 @@
     <!--scripts-->
     <script src="js/documents.js"></script>
     <script src="js/main.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
   </body>
 </html>
