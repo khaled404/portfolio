@@ -15,6 +15,11 @@ $(function(){
         win.scrollTop()>12?
         navbar.addClass("scrolled"):navbar.removeClass("scrolled")
     }
+    if ($(window).width() < 992) {
+        $(".nav-item").on("click",function(){
+            $(".navbar-toggler").click()
+        });    
+    }
     navScrolled ();
     navbarToggler.on('click',function(){
         navbar.toggleClass("active-click");
